@@ -1,10 +1,8 @@
 
 body{
- background-image: url("assets/images/diagonal_striped_brick_@2X.png");
- background-repeat: repeat-x;
- background-color: indigo;
+ background-image: url(pattern.png);
+ background-repeat: repeat;
 }
-
 
 .nav{
 position: fixed;
@@ -13,8 +11,6 @@ top:0;
 width: 100%;
 background: white;
 text-align: center;
-margin-bottom: 20px;
-
 }
 
 #name {
@@ -23,10 +19,11 @@ margin-bottom: 20px;
     width: 20%;
     height: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
 }
 
 #links {
-
+float: right;
 }
 
 
@@ -41,9 +38,8 @@ width: 60px;
  display: block;
  background-color: white;
  width: 950px;
- min-height: 100%;
- margin-bottom: -50px;
- margin-top: 50px;
+ 
+ margin: 0 auto;
 }
 
 #about {
@@ -51,23 +47,27 @@ width: 60px;
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  padding: 20px;
-    border-bottom: hotpink;
-    border-bottom-width: 10px;;
-    
+  display: block;
+  
 }
 
 img {
  position: relative;
- padding: 20px;
+ padding: 10px;
+ margin: 20px;
+ float: left;
 }
 
 #bio {
     background-color: #ffffff;
     color: #777777;
-    padding: 20px;
+    padding: 100px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    clear: both;
+    
+
 }
 
 .footer{
@@ -78,4 +78,10 @@ img {
     background-color: grey;
     color: white;
     text-align: center;
+    border-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-color: #4aaaa5;
+    
 }

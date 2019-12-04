@@ -18,20 +18,26 @@ body{
     z-index: 99;
     overflow: auto;
     padding-left: 15px;
+    height: 109px;
+    
+}
+nav a {
+    line-height: 18px;
+    display: inline-block;
+    
 }
 
 #links{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #dddddd;
+    font-size: 20px;
     float: right;
     padding: 20px;
-    margin-right: 200px;
+    margin-right: 250px;
     margin-top:20px;
 }
 
 a{
     color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #name {
@@ -40,12 +46,15 @@ a{
     height: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+    font-size: 30px;
     text-align: center;
     width: 250px;
     height: 90px;
     line-height: 90px;
     float: left;
-    padding-right: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px;
 }
 
 
@@ -78,7 +87,7 @@ img {
     background-color: #ffffff; 
     padding-top:140px;
     color: #777777;
-    padding: 100px;
+    padding: 30px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
@@ -99,7 +108,6 @@ img {
     text-align: center;
     border-top-style: solid;
     border-top-width: 8px;
-
     border-top-color: #4aaaa5;
 }
 

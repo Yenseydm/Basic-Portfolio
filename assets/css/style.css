@@ -126,16 +126,12 @@ clear: both;
 
 }
 
-<!--- contact --->
+/* contact page */
 
 #message{
-    height: 200;
-    
+    height: 200;   
 }
 
-#yname{
-    
-}
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -162,21 +158,27 @@ input[type=text], select, textarea {
       width: 880px;
     
   }
-<!-- portfolio --->
-.titles{
-    display: block;
-    background-color: teal;
-    color: white;
+/* portfolio page git */
+
+.box{
+    width: 880px;
+}
+
+.contain{
+    position: relative;
+}
+
+.headers{
+    position: absolute;
+    bottom: -220px;
+    right: 800px;
+    left:30px;
+    width: 160px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.images{
-    position: relative;
-    float: left;
-}

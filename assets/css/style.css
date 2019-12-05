@@ -77,12 +77,14 @@ a{
   padding-bottom: 20px;
 }
 
-img {
- position: relative;
- padding: 10px;
- margin: 20px;
- float: left;
+
+#me{
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin: 20px;
 }
+
 
 #bio {
     background-color: #ffffff; 
@@ -158,27 +160,51 @@ input[type=text], select, textarea {
       width: 880px;
     
   }
-/* portfolio page git */
+/* portfolio page */
 
 .box{
     width: 880px;
+        background-color: white;
+        margin-left: 0px;
+        line-height: 150%;
+        padding: 0px;
+        margin-top: 30px;
 }
 
-.contain{
+
+.item{
     position: relative;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
-.headers{
-    position: absolute;
-    bottom: -220px;
-    right: 800px;
-    left:30px;
-    width: 160px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
+.item h2 span{
+    background:#4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+    display:block; 
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    padding:10px;
+    top: 140px;
+    
 }
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 

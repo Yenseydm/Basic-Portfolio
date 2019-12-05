@@ -72,8 +72,9 @@ a{
   font-weight: bold;
   display: block; 
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   border-bottom-color: #dddddd;
+  padding-bottom: 20px;
 }
 
 img {
@@ -95,7 +96,8 @@ img {
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-
+    width: auto;
+    
 }
 
 .footer{
@@ -122,4 +124,58 @@ max-width: 960px;
 margin: 0 auto;
 clear: both;
 
+}
+
+<!--- contact --->
+
+#message{
+    height: 200;
+    
+}
+
+#yname{
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #dddddd; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+      display: block;
+      color: white;
+    background-color: teal;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  form{
+      width: 880px;
+    
+  }
+<!-- portfolio --->
+.titles{
+    display: block;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.images{
+    position: relative;
+    float: left;
 }
